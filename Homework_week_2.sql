@@ -1,3 +1,31 @@
+/* TASK 1: QUERIES USING DB parts */
+
+/* Find the name and weight of each red part */
+USE parts;
+SELECT 
+	pname AS red_part_name,
+    weight
+FROM part
+WHERE colour = 'red';
+
+/* Count unique red parts in part */
+SELECT COUNT(*)
+FROM (SELECT DISTINCT pname FROM part WHERE colour='red') AS red_parts;#
+
+/* Find all UNIQUE supplier(s) name from London */
+SELECT DISTINCT sname
+FROM supplier
+WHERE city = 'London';
+
+/* Count unique supplier in London */
+SELECT
+	COUNT(DISTINCT sname)
+FROM supplier
+WHERE city = 'London';
+
+-- -----------------------------------------------------------------------------------
+		
+/* TASK 2 */
 /* Create a database called shop and a table in it called sales1 and insert the given data*/
 CREATE DATABASE shop;
 USE shop;
