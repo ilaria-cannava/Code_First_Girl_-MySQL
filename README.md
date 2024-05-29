@@ -19,8 +19,8 @@ Here is a summary of the key topics I have mastered:
 * Creating and managing views to simplify data retrieval.
   
 ## Advanced Database Functions:
-Developing and executing stored procedures for automated data operations.
-Writing and using functions for reusable SQL logic.
-Setting up and managing events for scheduled database tasks.
-Setting up triggers to automate data retrival and updating of the database
+* Developing and executing stored procedures for automated data operations.
+* Writing and using functions for reusable SQL logic.
+* Setting up and managing events for scheduled database tasks.
+* Setting up triggers to automate data retrival and updating of the database
 This course has equipped me with a solid foundation in database management and SQL, enabling me to efficiently design, implement, and manage databases in a professional environment.
